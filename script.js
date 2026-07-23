@@ -44,9 +44,22 @@ document.querySelector(".container").innerHTML = `
 
 <h1>📸 Наши моменты</h1>
 
-<p>
-Здесь скоро появятся наши фотографии ❤️
-</p>
+<div class="gallery">
+
+<img src="photo126.jpg">
+<img src="photo127.jpg">
+<img src="photo128.jpg">
+<img src="photo129.jpg">
+<img src="photo130.jpg">
+<img src="photo131.jpg">
+<img src="photo132.jpg">
+<img src="photo133.jpg">
+<img src="photo134.jpg">
+<img src="photo135.jpg">
+
+</div>
+
+<br>
 
 <button onclick="finish()">Дальше 💖</button>
 
