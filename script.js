@@ -74,7 +74,7 @@ function finish() {
 
     document.querySelector(".container").innerHTML = `
 
-    <h1>💍❤️</h1>
+    <h1>❤️</h1>
 
     <h1>Ты выйдешь за меня?</h1>
 
