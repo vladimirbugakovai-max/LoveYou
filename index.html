@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Свидание ❤️</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+<div class="container">
+
+<img class="photo fade" src="images/photo126.jpg" style="width:250px;height:300px;object-fit:cover;">
+
+<h1>Привет ❤️</h1>
+
+<p>
+Я сделал этот маленький сайт специально для тебя.
+</p>
+  
+
+<br><br>
+
+<button onclick="start()">НАЧАТЬ</button>
+
+</div>
+
+
+<script>
+
+
+function start() {
+
+const container = document.querySelector(".container");
+
+container.innerHTML = `
+
+<h1>❤️ Наша история</h1>
+
+
+<img class="photo fade" src="images/photo127.jpg" style="width:250px;height:300px;object-fit:cover;">
+
+<p>
+Каждый момент с тобой становится особенным ❤️
+<br><br>
+Я хочу сохранить эти тёплые воспоминания и моменты, которые делают нас счастливее.
+</p>
+
+
+<img class="photo fade" src="images/photo128.jpg" style="width:250px;height:300px;object-fit:cover;">
+
+<p>
+Столько красивых моментов уже позади...
+<br><br>
+И самое главное — впереди ещё много новых историй 🌹
+</p>
+
+
+<img class="photo fade" src="images/photo129.jpg" style="width:250px;height:300px;object-fit:cover;">
+
+<p>
+Спасибо за улыбки, эмоции и всё то, что делает эти моменты такими ценными ❤️
+<br><br>
+Это только начало нашей истории...
+</p>
+
+
+<button onclick="next()">Дальше 🌹</button>
+
+`;
+  container.style.animation = "none";
+container.offsetHeight;
+container.style.animation = "pageFade 0.8s ease";
+
+}
+
+
+
+function next() {
+
+const container = document.querySelector(".container");
+
+container.innerHTML = `
+
+<h1>✨ Наши моменты</h1>
+
+<p>
+Есть моменты, которые хочется сохранить навсегда ❤️
+<br><br>
+Каждая фотография — это часть нашей истории.
+</p>
+
+
+<img class="photo fade" src="images/photo130.jpg" style="width:250px;height:300px;object-fit:cover;">
+
+<p>
+Один из наших особенных моментов ❤️
+</p>
+
+
+<img class="photo fade" src="images/photo131.jpg" style="width:250px;height:300px;object-fit:cover;">
+
+<p>
+Ещё одно тёплое воспоминание 🌹
+</p>
+
+
+<img class="photo fade" src="images/photo132.jpg" style="width:250px;height:300px;object-fit:cover;">
+
+<p>
+Момент, который хочется сохранить ❤️
+</p>
+
+
+<img class="photo fade" src="images/photo133.jpg" style="width:250px;height:300px;object-fit:cover;">
+
+<p>
+Спасибо за эти эмоции ✨
+</p>
+
+
+<img class="photo fade" src="images/photo134.jpg" style="width:250px;height:300px;object-fit:cover;">
+
+<p>
+Каждый день становится особенным рядом с тобой ❤️
+</p>
+
+
+<img class="photo fade" src="images/photo135.jpg" style="width:250px;height:300px;object-fit:cover;">
+
+<p>
+И это только часть нашей истории 🌹
+</p>
+
+
+<button onclick="finish()">Дальше 💖</button>
+
+`;
+  container.style.animation = "none";
+container.offsetHeight;
+container.style.animation = "pageFade 0.8s ease";
+
+}
+
+
+  function finish() {
+
+const container = document.querySelector(".container");
+
+container.innerHTML = `
+
+<h1>💖 Спасибо, что ты есть</h1>
+
+<p>
+Иногда в жизни появляется человек,
+который делает обычные дни особенными ❤️
+<br><br>
+
+Спасибо тебе за улыбки, за моменты,
+за тепло и эмоции, которые мы разделяем.
+<br><br>
+
+Каждое воспоминание с тобой для меня ценно,
+и я хочу, чтобы впереди нас ждало ещё много
+счастливых моментов 🌹
+<br><br>
+
+Это маленький подарок от меня,
+но в нём есть частичка моего сердца ❤️
+</p>
+
+
+<h2>
+❤️ ✨ ❤️
+</h2>
+
+
+<p>
+Наша история только начинается...
+</p>
+<button onclick="last()">Дальше ❤️</button>
+
+`;
+    container.style.animation = "none";
+container.offsetHeight;
+container.style.animation = "pageFade 0.8s ease";
+
+  }
+function last() {
+
+const container = document.querySelector(".container");
+
+container.innerHTML = `
+
+<h1>✨ Есть ещё кое-что...</h1>
+
+<p>
+
+Всё, что ты сейчас увидела, было лишь началом.
+
+<br><br>
+
+Я долго думал, как сделать этот день особенным.
+
+<br><br>
+
+И понял, что хочу задать самый важный вопрос в своей жизни...
+
+</p>
+
+<button onclick="love()">❤️ Продолжить</button>
+
+`;
+container.style.animation = "none";
+container.offsetHeight;
+container.style.animation = "pageFade 0.8s ease";
+}
+
+function love() {
+
+const container = document.querySelector(".container");
+
+container.innerHTML = `
+
+<h1>❤️</h1>
+
+<h1>Я люблю тебя</h1>
+
+<p>
+
+Спасибо, что появилась в моей жизни.
+
+<br><br>
+
+Рядом с тобой даже обычные дни становятся особенными.
+
+<br><br>
+
+Я хочу просыпаться рядом с тобой.
+
+<br>
+
+Смеяться вместе.
+
+<br>
+
+Путешествовать вместе.
+
+<br>
+
+Поддерживать друг друга в любые моменты.
+
+<br>
+
+И прожить с тобой всю жизнь.
+
+</p>
+
+<button onclick="proposal()">💍 Последний шаг</button>
+
+`;
+container.style.animation = "none";
+container.offsetHeight;
+container.style.animation = "pageFade 0.8s ease";
+}
+
+  function proposal() {
+
+const container = document.querySelector(".container");
+
+container.innerHTML = `
+
+<h1 style="font-size:70px;">💍</h1>
+
+<h1>Ты выйдешь за меня?</h1>
+
+<p>❤️</p>
+
+`;
+createHearts();
+container.style.animation = "none";
+container.offsetHeight;
+container.style.animation = "pageFade 0.8s ease";
+  }
+  function createHearts() {
+
+setInterval(() => {
+
+const heart = document.createElement("div");
+
+heart.className = "heart";
+
+heart.innerHTML = "❤️";
+
+heart.style.left = Math.random() * 100 + "vw";
+
+heart.style.fontSize = (20 + Math.random() * 20) + "px";
+
+document.body.appendChild(heart);
+
+setTimeout(() => {
+    heart.remove();
+}, 5000);
+
+}, 300);
+
+  }
+  
+</script>
+
+
+</body>
+
+</html>
